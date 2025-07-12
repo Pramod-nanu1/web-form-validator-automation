@@ -1,33 +1,25 @@
-
 # Web Form Validator Automation 🚀
 
-This is a Selenium TestNG project that automates validation of a public input form. It covers field-level validations, required inputs, and form submission behavior.
+This is a Selenium + TestNG automation project that validates a sample contact form for required fields and formats.
 
-### 🔧 Tech Stack
+### 🔧 Technologies
 - Java
 - Selenium WebDriver
 - TestNG
-- Maven (optional)
 
-### ✅ Features Tested
-- Required field errors
-- Email format validation
-- Phone number format
-- Valid vs invalid form submission
-- Confirmation message presence
+### 🔍 What it Tests
+- Required field error messages
+- Form submission without input
+- Email and phone format (add more later)
 
-### 🔄 How to Run
-1. Clone this repo
-2. Import as Maven project (if applicable)
-3. Run `FormValidationTests.java`
-
-### 📍 Target Website
+### 🌐 Target Site
 [https://www.seleniumeasy.com/test/input-form-demo.html](https://www.seleniumeasy.com/test/input-form-demo.html)
 
+### ✅ How to Run
+1. Install ChromeDriver
+2. Update the path in `FormValidationTest.java`
+3. Run the test via `TestNG`
+
 ---
 
-### 📸 Sample Screenshot
-(Screenshot here)
-
----
-
+**Created by Pramod Gaikwad**
